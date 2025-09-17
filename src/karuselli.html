@@ -2,58 +2,92 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-  <main id="main" class="container">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container-fluid" role="navigation">
-        <a class="navbar-brand" href="#">
-          <img src="halloween.jpeg" alt="Avatar Logo" role="button" aria-label="Siirry kotisivulle" style="width:40px;" class="rounded-pill" href="index.html">
-        </a>
-        <!-- Collapsible navbar -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Koti</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="karuselli.html">Karuselli</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ruudukko.html">Ruudukko</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kortit.html">Kortit</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="haitari.html">Haitari</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="taulukko.html">Taulukko</a>
-          </li>
-        </ul>
-      </div>
+    <main id="main" class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid" role="navigation">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/halloween.jpeg" alt="Avatar Logo" role="button" aria-label="Siirry kotisivulle"
+                        style="width:40px;" class="rounded-pill" href="index.html">
+                </a>
+                <!-- Collapsible navbar -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Koti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="karuselli.html">Karuselli</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ruudukko.html">Ruudukko</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kortit.html">Kortit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="haitari.html">Haitari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taulukko.html">Taulukko</a>
+                        </li>
+                    </ul>
+                </div>
 
-    </nav>
+        </nav>
 
-    <div class="container">
-      <h1>Karuselli</h1>
-      <p>This part is inside a .container class.</p>
-      <p>The .container class provides a responsive fixed width container.</p>
-      <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
-    </div>
-  </main>
+        <div class="container" style="width:600px;height:375px;">
+            <h1>Karuselli</h1>
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/haunted-house.jpg" alt="Lepakko" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/lantern.jpg" alt="New York" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/candles.jpg" alt="New York" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/graveyard.jpg" alt="New York" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </main>
 
 </body>
 
