@@ -1,0 +1,15 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#grad {
+  background-image: linear-gradient(to bottom, red, yellow) ;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
