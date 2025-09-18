@@ -2,91 +2,110 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-  <main id="main" class="container">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container-fluid" role="navigation">
-        <a class="navbar-brand" href="index.html">
-          <img src="./images/halloween.jpg" alt="Avatar Logo" role="button" aria-label="Siirry kotisivulle" style="width:40px;" class="rounded-pill">
-        </a>
-        <!-- Collapsible navbar -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Koti</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="karuselli.html">Karuselli</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ruudukko.html">Ruudukko</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kortit.html">Kortit</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="haitari.html">Haitari</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="taulukko.html">Taulukko</a>
-          </li>
-        </ul>
-      </div>
+    <main id="main" class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid" role="navigation">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./images/halloween.jpg" alt="Avatar Logo" role="button" aria-label="Siirry kotisivulle"
+                        style="width:40px;" class="rounded-pill">
+                </a>
+                <!-- Collapsible navbar -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Koti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="karuselli.html">Karuselli</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ruudukko.html">Ruudukko</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kortit.html">Kortit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="haitari.html">Haitari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taulukko.html">Taulukko</a>
+                        </li>
+                    </ul>
+                </div>
 
-    </nav>
+        </nav>
 
-    <div class="container">
-      <h1>Haitari</h1>
-      <p>This part is inside a .container class.</p>
-      <p>The .container class provides a responsive fixed width container.</p>
-      <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
-    </div>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-</div>
-  </main>
+        <div class="container">
+            <h1>Haitari</h1>
+            <p>This part is inside a .container class.</p>
+            <p>The .container class provides a responsive fixed width container.</p>
+            <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
+            <p>Halloween trivia!</p>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What year is the next Halloween with a full moon?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Answer: 2039</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Approximately when is Halloween thought to have originated?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Answer: 4000 B.C.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What is the name of the Celtic holiday that Halloween originated from?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Answer: Samhain</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        What happens on the Autumn Equinox?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Answer: The hours of daylight and darkness are equal</div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 </body>
 
