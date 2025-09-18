@@ -2,59 +2,89 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-  <main id="main" class="container">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container-fluid" role="navigation">
-        <a class="navbar-brand" href="index.html">
-          <img src="./images/halloween.jpeg" alt="Avatar Logo" role="button" aria-label="Siirry kotisivulle" style="width:40px;" class="rounded-pill">
-        </a>
-        <!-- Collapsible navbar -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Koti</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="karuselli.html">Karuselli</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ruudukko.html">Ruudukko</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="kortit.html">Kortit</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="haitari.html">Haitari</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="taulukko.html">Taulukko</a>
-          </li>
-        </ul>
-      </div>
+    <main id="main" class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid" role="navigation">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./images/halloween.jpeg" alt="Avatar Logo" role="button" aria-label="Siirry kotisivulle"
+                        style="width:40px;" class="rounded-pill">
+                </a>
+                <!-- Collapsible navbar -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Koti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="karuselli.html">Karuselli</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ruudukko.html">Ruudukko</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="kortit.html">Kortit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="haitari.html">Haitari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="taulukko.html">Taulukko</a>
+                        </li>
+                    </ul>
+                </div>
 
-    </nav>
+        </nav>
 
-    <div class="container">
-      <h1>Kortit</h1>
-      <p>This part is inside a .container class.</p>
-      <p>The .container class provides a responsive fixed width container.</p>
-      <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
-    </div>
-  </main>
+        <div class="container">
+            <h1>Kortit</h1>
+            <p>This part is inside a .container class.</p>
+            <p>The .container class provides a responsive fixed width container.</p>
+            <p>Resize the browser window to see that the container width will change at different breakpoints.</p>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./images/black_cat1.jpg" class="img-fluid rounded-start" alt="Musta kissa">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem, ipsum</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est totam repellendus omnis dolores harum ex.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/black_cat2.jpg" class="img-fluid rounded-start" alt="Kaksi mustaa kissaa kuun valossa">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem, ipsum.</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora saepe unde? At, soluta delectus.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 </body>
 
