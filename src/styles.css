@@ -9,7 +9,7 @@ h2 {
 }
 
 body {
-  background-image: linear-gradient(to right, rgb(33, 16, 58), rgb(121, 84, 160));
+  background-image: linear-gradient(to right, rgb(33, 16, 58), rgb(121, 84, 160)) !important;
 }
 
 p {
