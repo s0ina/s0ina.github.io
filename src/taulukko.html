@@ -20,7 +20,7 @@
                         style="width:40px;" class="rounded-pill">
                 </a>
                 <!-- Collapsible navbar -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" aria-label="Päävalikko" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -59,30 +59,30 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col"></th>
+                    <th scope="col">Type</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="table-info">
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <th>Info</th>
                 </tr>
-                <tr>
+                <tr class="table-primary">
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <th>Primary</th>
                 </tr>
-                <tr>
+                <tr class="table-success">
                     <th scope="row">3</th>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>@social</td>
+                    <th>Success</th>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">4</th>
+                    <th>Warning</th>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">5</th>
+                    <th>Danger</th>
                 </tr>
             </tbody>
         </table>
